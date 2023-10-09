@@ -1,21 +1,21 @@
 body {
-    background-color: gray;
+    background-color: #393424;
 }
 #prezzo {
     font-size: 4em;
-    color: lightgreen;
+    color: #61FF7E;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid lightgreen;
+    border: 2px solid #61FF7E;
     padding: 15px;
     border-radius: 15px;
     background-color: white;
 }
 #prezzo:hover {
     cursor: pointer;
-    color: red;
-    border: 2px solid red;
+    color: #54577C;
+    border: 2px solid #54577C;
     transition: all 1s;
 }

@@ -29,4 +29,4 @@ if (age < 18){
 } else {
     total = total.toFixed(2);
     document.getElementById("prezzo").innerHTML = "Il prezzo finale è " + total + " €";
-} 
+}
