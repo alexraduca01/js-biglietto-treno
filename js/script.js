@@ -6,3 +6,9 @@
 // L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 // Questo richiederà un minimo di ricerca.
 
+let distance = prompt('Inserire distanza da percorrere: (in chilometri)');
+
+let age = prompt('Inserire età del passeggero:');
+
+let ticketPrice = (distance * 0.21);
+
