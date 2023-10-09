@@ -21,12 +21,12 @@ if (isNaN(distance) || (isNaN(age))) {
 }
 
 if (age < 18){
-    finalPrice = (total - (total * 20 / 100)).toFixed(2) + " €";
-    document.getElementById("prezzo").innerHTML = "Il prezzo finale è " + finalPrice;
+    finalPrice = (total - (total * 20 / 100)).toFixed(2);
+    document.getElementById("prezzo").innerHTML = "Il prezzo finale è " + finalPrice + " €";
 } else if (65 <= age) {
-    finalPrice = (total - (total * 40 / 100)).toFixed(2) + " €";
-    document.getElementById("prezzo").innerHTML = "Il prezzo finale è " + finalPrice;
+    finalPrice = (total - (total * 40 / 100)).toFixed(2);
+    document.getElementById("prezzo").innerHTML = "Il prezzo finale è " + finalPrice + " €";
 } else {
-    total = (total.toFixed(2) + " €");
-    document.getElementById("prezzo").innerHTML = "Il prezzo finale è " + total;
+    total = total.toFixed(2);
+    document.getElementById("prezzo").innerHTML = "Il prezzo finale è " + total + " €";
 } 
